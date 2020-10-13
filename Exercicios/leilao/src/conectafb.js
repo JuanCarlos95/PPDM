@@ -1,12 +1,5 @@
-import firebase from 'firebase/app'
-import 'firebase/firestore'
-
-
-
-
-// FIREBASE DO EDÉCIO
-
-
+import firebase from 'firebase/app';
+import 'firebase/firestore';
 // Your web app's Firebase configuration
 var firebaseConfig = {
     apiKey: "AIzaSyAngfUGWn_LraE4HXsHkufc9-Lvlgqn6IE",
@@ -22,30 +15,9 @@ var firebaseConfig = {
 
 // Initialize Firebase
 const fb = firebase.initializeApp(firebaseConfig);
-
 export const db = fb.firestore();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // Your web app's Firebase configuration
+// //   Your web app's Firebase configuration
 // var firebaseConfig = {
 //     apiKey: "AIzaSyDSsyw6bHEUKesktqs1hZDHgPXl2V5_wlU",
 //     authDomain: "obras-f4309.firebaseapp.com",
@@ -57,3 +29,4 @@ export const db = fb.firestore();
 //   };
 //   // Initialize Firebase
 //   firebase.initializeApp(firebaseConfig);
+
